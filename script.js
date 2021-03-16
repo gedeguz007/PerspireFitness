@@ -1,5 +1,6 @@
 $( function() {
-  $("#commentForm").validate(); 
+  $("#commentForm").validate();
+  $( "input" ).checkboxradio(); 
   $( "#sortable" ).sortable();
   $( "#sortable" ).disableSelection();
 

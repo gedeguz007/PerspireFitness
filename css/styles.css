@@ -33,7 +33,8 @@ body {
     margin: 0 auto;
     width: 600px;
 	padding: 0 1em 1em;
-   border: 1px solid rgb(136, 131, 131);
+   border: 1px solid rgb(117, 3, 3);
+   background-color: rgba(131, 123, 123, 0.911);
    
 }
 
@@ -53,7 +54,8 @@ body {
 }
 
 legend {
-    color: #0099ff;
+    color: #080b96;
+    font-weight: bolder;
 }
 
 label.error {
