@@ -1,4 +1,5 @@
 $( function() {
+  $("#commentForm").validate(); 
   $( "#sortable" ).sortable();
   $( "#sortable" ).disableSelection();
 

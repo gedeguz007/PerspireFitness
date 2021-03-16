@@ -44,6 +44,22 @@ body {
    border: 1px solid rgb(136, 131, 131);
 }
 
+#commentForm label {
+    width: 300px;
+}
+
+#commentForm label.error, #commentForm input.submit {
+    margin-left: 30px;
+}
+
+legend {
+    color: #0099ff;
+}
+
+label.error {
+    color: red;
+}
+
 .perspire {
     color : rgb(211, 13, 13);
     font-size: 300%;
