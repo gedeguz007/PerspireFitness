@@ -1,17 +1,8 @@
 $( function() {
   $("#commentForm").validate();
   $( "input" ).checkboxradio(); 
-  $( "#sortable" ).sortable();
-  $( "#sortable" ).disableSelection();
-
+ 
 });
-/*  $( "#datepicker" ).datepicker();
-  $("#commentForm").validate(); 
-  
-  $( "input" ).checkboxradio();
-} );
-
-  */
 
 $(document).ready(function(){
   $(".perspire").hover(function(){
