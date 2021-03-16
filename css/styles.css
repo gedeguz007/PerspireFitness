@@ -89,3 +89,41 @@ h2 {
 .cycle-slideshow{
     text-align: center;
 }
+
+#perspirelogo {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#perspirepic {
+    width: 150px;
+    height: 150px;
+}
+
+.exercisepic {
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bluestrong {
+    font-weight: bold;
+    color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.instructors {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
