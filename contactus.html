@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Perspire Fitness</title>
+        <link href="css/styles.css" type= "text/css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+        <script src="script.js"></script>
+
+    </head>
+
+
+<body>
+  <header>
+    <div id ="div1">
+        <h1 class = "perspire">
+            Perspire Fitness
+        </h1>
+        <p class = "sweat">
+            Sweat is your body's way of crying.
+        </p>
+        <img src = "https://e7.pngegg.com/pngimages/528/626/png-clipart-emoji-sticker-symbol-splash-perspiration-apple-splash-blue-drop-thumbnail.png" width = "150">
+    </div>
+    <div class = "wrapper">
+        <nav>
+            
+                <a href = "home.html">Home</a>
+                <a href = "services.html">Services</a>
+                <a href = "aboutus.html">About Us</a>
+                <a href = "contactus.html">Contact Us</a>
+            
+        </nav>
+    </div>
+</header>
+  <main id = "contact">
+
+    <form class="cmxform" id="commentForm" method="get" action="">
+      <fieldset>
+      <legend>Sign up for our newsletter</legend>
+      <p>
+      <label for="cname">Name (required, at least 2 characters)</label>
+        </p>
+        </p>
+      <input id="cname" name="name" minlength="2" type="text" required>
+        </p>
+      <p>
+        <label for="cemail">E-Mail (required)</label> </p>
+      </p>
+      <p>
+        <input id="cemail" type="email" name="email" required>
+      </p>
+      <p>
+        <label for="curl">URL (optional)</label> </p>
+      <p>
+        <input id="curl" type="url" name="url">
+      </p>
+      <p>
+        <label for="ccomment">Your comment (required)</label> </p>
+      <p>
+        <textarea id="ccomment" name="comment" required></textarea>
+      </p>
+      <p>
+        <input class="submit" type="submit" value="Submit">
+      </p>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <ul>
+        <li>Copyright &copy; 2021</li>
+        <li>IT 121 Final Project by Gabriel DeGuzman</li>
+        <li> <a href = "html validator placeholder">HTML Validator</a> </li>
+        <li> <a href = "css validator placeholder">CSS Validator</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
