@@ -127,3 +127,8 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
+.important {
+    font-weight: bold;
+    font-size: large;
+}

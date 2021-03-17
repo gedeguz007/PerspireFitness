@@ -11,6 +11,11 @@ $(document).ready(function(){
     $(this).css("background-color", "blue");
   });
 
+  $("#sweatbutton").on('click', function(){
+    $("#sweat").css("color", "rgb(211, 13, 13)");
+    $("#sweat").addClass("important");
+  });
+
    $('.exercise').on('click', function(){
       $('.exercisepic').toggle(4000);
   });
